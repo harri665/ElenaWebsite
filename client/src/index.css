@@ -612,9 +612,10 @@ p {
 
 .hero__title {
   margin: 0;
+  max-width: 100%;
   font-family: var(--display);
   font-weight: 500;
-  font-size: clamp(4.5rem, 17vw, 12.5rem);
+  font-size: clamp(2.6rem, 17vw, 12.5rem);
   line-height: 0.95;
   letter-spacing: 0.14em;
   margin-right: -0.14em; /* optically recentre the tracked word */
@@ -623,6 +624,14 @@ p {
   text-shadow:
     0 0 60px rgba(182, 140, 255, 0.35),
     0 4px 40px rgba(6, 4, 12, 0.8);
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+    font-size: clamp(2.2rem, 13.5vw, 3.2rem);
+    letter-spacing: 0.08em;
+    margin-right: -0.08em;
+  }
 }
 
 .hero__divider {
