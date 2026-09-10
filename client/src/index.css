@@ -419,11 +419,6 @@ p {
   border-color: rgba(215, 226, 245, 0.4);
 }
 
-.btn--primary {
-  background:
-    linear-gradient(100deg, rgba(127, 178, 255, 0.22), rgba(182, 140, 255, 0.24) 50%, rgba(255, 140, 198, 0.22)),
-    rgba(10, 8, 18, 0.35);
-}
 
 .btn--ghost {
   border-color: transparent;
