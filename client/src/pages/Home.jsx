@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { useBackdrop, useBackdropSection } from '../lib/backdrop/hooks.js'
+import { useEffect, useRef, useState } from 'react'
+import { useBackdrop, useBackdropControls, useBackdropSection } from '../lib/backdrop/hooks.js'
 import { TLink } from '../lib/transition.jsx'
 import { usePageTransition } from '../lib/usePageTransition.js'
 import { Reveal, RevealText } from '../components/Reveal.jsx'
@@ -50,7 +50,7 @@ function Hero() {
   return (
     <section className="hero" ref={ref}>
       <div className="hero__content">
-        <RevealText as="h1" className="hero__title" text="Elena" stagger={90} delay={250} immediate />
+        <RevealText as="h1" className="hero__title" text="Elena rodriguez" stagger={20} delay={100} immediate />
         <p className="hero__tagline">Trying to do cool art, is it working?</p>
         <div className="hero__ctas">
           <TLink to="/gallery" className="btn btn--primary">
@@ -134,10 +134,22 @@ function Featured({ piece, flip }) {
   )
 }
 
+const HOVER_DELAY = 140
+
 function GalleryTeaser() {
   const { pieces, featuredPieces } = useSite()
-  const picks = pieces.filter((p) => !featuredPieces.includes(p)).slice(0, 8)
+  const picks = pieces.filter((p) => !featuredPieces.includes(p)).slice(0, 50)
   const ref = useBackdropSection(picks[0] && { src: picks[0].cover, blur: 1, dim: 0.72 })
+  const { setOverride } = useBackdropControls()
+  const hoverTimer = useRef(0)
+
+  // Hovering a card previews it behind the whole page, same as the gallery grid.
+  const preview = (desc) => {
+    clearTimeout(hoverTimer.current)
+    hoverTimer.current = setTimeout(() => setOverride(desc), HOVER_DELAY)
+  }
+  useEffect(() => () => clearTimeout(hoverTimer.current), [])
+
   if (!pieces.length) return null
   return (
     <section className="teaser" ref={ref}>
@@ -147,21 +159,31 @@ function GalleryTeaser() {
         </Reveal>
         <RevealText text="MY ART " className="section-title" />
       </div>
-      <div className="teaser__grid">
-        {picks.map((a, i) => (
-          <Reveal key={a.id} delay={i * 70} className="teaser__item">
-            <TLink to={`/art/${a.slug}`} backdrop={{ src: a.cover, blur: 0.8, dim: 0.6 }} className="card">
-              <img src={a.cover} alt={a.title} loading="lazy" />
-              <span className="card__label">{a.title}</span>
-            </TLink>
-          </Reveal>
-        ))}
+      <div className="teaser__grid" onMouseLeave={() => preview(null)}>
+        {picks.map((a, i) => {
+          const desc = { src: a.cover, blur: 0.55, dim: 0.6 }
+          return (
+            <Reveal key={a.id} delay={i * 40} className="teaser__item">
+              <TLink
+                to={`/art/${a.slug}`}
+                backdrop={{ src: a.cover, blur: 0.8, dim: 0.6 }}
+                className="card"
+                onMouseEnter={() => preview(desc)}
+                onFocus={() => preview(desc)}
+                onClick={() => clearTimeout(hoverTimer.current)}
+              >
+                <img src={a.cover} alt={a.title} loading="lazy" />
+                <span className="card__label">{a.title}</span>
+              </TLink>
+            </Reveal>
+          )
+        })}
       </div>
-      <Reveal className="teaser__cta">
+      {/* <Reveal className="teaser__cta">
         <TLink to="/gallery" className="btn btn--primary">
           <span>See every piece</span>
         </TLink>
-      </Reveal>
+      </Reveal> */}
     </section>
   )
 }

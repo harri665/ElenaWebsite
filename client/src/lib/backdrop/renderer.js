@@ -1,6 +1,7 @@
 import { VERTEX, FRAGMENT } from './shaders.js'
 
 const DURATION = 1400
+const INITIAL_DURATION = 6000
 const MAX_CANVAS_WIDTH = 1800
 
 const smoothstep = (t) => (t <= 0 ? 0 : t >= 1 ? 1 : t * t * (3 - 2 * t))
@@ -103,15 +104,16 @@ export function createBackdropRenderer(canvas, { reducedMotion = false } = {}) {
     return textures.get(src)
   }
 
-  const state = { from: empty, to: empty, start: 0, running: false }
+  const state = { from: empty, to: empty, start: 0, running: false, duration: DURATION }
   const t0 = performance.now()
   let frame = 0
   let latestRequest = 0
   let destroyed = false
+  let hasShown = false
 
   const progressAt = (now) => {
     if (!state.running) return 1
-    return smoothstep((now - state.start) / (reducedMotion ? 1 : DURATION))
+    return smoothstep((now - state.start) / (reducedMotion ? 1 : state.duration))
   }
 
   const layerTransform = (layer) =>
@@ -205,6 +207,8 @@ export function createBackdropRenderer(canvas, { reducedMotion = false } = {}) {
     state.to = layer
     state.start = now
     state.running = true
+    state.duration = hasShown ? DURATION : INITIAL_DURATION
+    hasShown = true
     requestDraw()
   }
 
