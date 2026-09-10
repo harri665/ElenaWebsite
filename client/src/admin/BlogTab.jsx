@@ -31,7 +31,7 @@ export default function BlogTab({ site, run }) {
           + New post
         </button>
       </div>
-      <p className="hint">Posts are listed newest first on the site, by their date.</p>
+      {/* <p className="hint">Posts are listed newest first on the site, by their date.</p> */}
 
       {posts.length === 0 ? (
         <p>No posts yet.</p>

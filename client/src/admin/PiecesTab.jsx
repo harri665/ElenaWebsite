@@ -26,7 +26,6 @@ export default function PiecesTab({ site, run }) {
           + Add a piece
         </button>
       </div>
-      <p className="hint">This is the gallery order — the top piece shows first. New pieces are added at the top.</p>
 
       <table className="list pieces-list">
         <thead>

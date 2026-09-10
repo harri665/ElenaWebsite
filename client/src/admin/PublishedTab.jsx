@@ -29,7 +29,7 @@ export default function PublishedTab({ site, run }) {
           + Add published work
         </button>
       </div>
-      <p className="hint">Books, zines, magazines, games… anywhere your work has appeared. Listed newest first.</p>
+      <p className="hint">Published maybe isnt the correct work idk i just wanted a place for you to put your books :) let me know if i shoud change the name to this section :)</p>
 
       {items.length === 0 ? (
         <p>Nothing added yet.</p>

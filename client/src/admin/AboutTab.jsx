@@ -49,7 +49,7 @@ export default function AboutTab({ site, run }) {
           <input value={form.heading} onChange={set('heading')} maxLength={120} required />
         </label>
         <label>
-          Intro line <span className="hint">(shown larger, in italics)</span>
+          Intro line <span className="hint"></span>
           <input value={form.lead} onChange={set('lead')} maxLength={400} />
         </label>
         <label>

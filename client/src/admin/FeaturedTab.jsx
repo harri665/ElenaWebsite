@@ -24,8 +24,7 @@ export default function FeaturedTab({ site, run }) {
     <section className="card-form">
       <h2>Featured section</h2>
       <p className="hint">
-        These pieces cycle behind the intro at the top of the home page. If the section below is switched on, they
-        also get their own big full-screen sections further down.
+        These pieces cycle behind the intro at the top of the home page :) 
       </p>
 
       <label className="check">
@@ -33,7 +32,7 @@ export default function FeaturedTab({ site, run }) {
         Show the featured sections further down the home page
       </label>
 
-      {!enabled && <p className="hint">The full-screen sections are hidden right now, but these pieces still cycle behind the intro.</p>}
+      {!enabled && <p className="hint"> i made like a featured section that goes above the gallery for select art pieces i didnt really like it in heinsight but if you like it you can turn this on and itll show :) </p>}
 
       <fieldset>
         <legend>Featured pieces, in order ({ids.length})</legend>
