@@ -168,6 +168,10 @@ export function createBackdropRenderer(canvas, { reducedMotion = false } = {}) {
       canvas.width = w
       canvas.height = h
       gl.viewport(0, 0, w, h)
+      // Resizing clears the drawing buffer immediately; redraw synchronously so
+      // there's no gap where the canvas is blank (Safari resizes this a lot
+      // mid-scroll as its dynamic toolbar collapses/expands).
+      draw(performance.now())
     }
     requestDraw()
   }
