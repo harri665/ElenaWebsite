@@ -105,6 +105,13 @@ button {
   overflow: hidden;
   pointer-events: none;
   background: var(--bg);
+  /* Keeps Safari from dropping this layer's compositing and flashing the
+     page background black mid-scroll. */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 .backdrop__holder,
