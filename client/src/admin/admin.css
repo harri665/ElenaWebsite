@@ -1,0 +1,116 @@
+/* Intentionally bare: browser defaults, plus only what keeps the page usable. */
+
+/* ── scaling: nothing may be wider than the screen ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  overflow-wrap: break-word; /* long words wrap, but tables keep their natural column widths */
+}
+img,
+video,
+select,
+input,
+textarea {
+  max-width: 100%;
+}
+fieldset {
+  min-width: 0; /* fieldsets otherwise refuse to shrink below their content */
+}
+/* Wide tables scroll sideways instead of stretching the page. */
+table.list {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+td.actions {
+  white-space: nowrap;
+}
+
+.admin-header {
+  border-bottom: 1px solid #000;
+  padding-bottom: 6px;
+}
+.admin-header nav {
+  display: inline;
+  margin: 0 12px;
+}
+button {
+  margin: 0 3px 3px 0;
+}
+button.active {
+  font-weight: bold;
+}
+
+.notice.ok {
+  color: green;
+}
+.notice.error {
+  color: red;
+}
+.hint {
+  color: gray;
+}
+
+label,
+.field {
+  display: block;
+  margin-bottom: 10px;
+}
+label > input:not([type='checkbox']),
+label > textarea,
+label > select {
+  display: block;
+}
+input[type='url'],
+input:not([type]),
+textarea {
+  width: 500px;
+  max-width: 100%;
+}
+
+table.list {
+  border-collapse: collapse;
+  margin: 8px 0;
+}
+table.list th,
+table.list td {
+  border: 1px solid #999;
+  padding: 2px 6px;
+  text-align: left;
+}
+
+.thumb {
+  display: block;
+  max-width: none; /* don't let narrow table cells squash thumbnails */
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+}
+.thumb.large {
+  width: 120px;
+  height: 150px;
+}
+.photo-preview img {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.media-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Phones: drop the less important columns so the buttons stay on screen. */
+@media (max-width: 520px) {
+  .pieces-list th:nth-child(4),
+  .pieces-list td:nth-child(4),
+  .pieces-list th:nth-child(5),
+  .pieces-list td:nth-child(5) {
+    display: none;
+  }
+}

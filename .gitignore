@@ -128,3 +128,7 @@ yarn/unplugged
 yarn/build-state.yml
 yarn/install-state.gz
 pnp.*
+# Site content edited through /admin (seed.json is the committed starting point)
+server/data/site.json
+server/data/site.json.tmp
+server/data/uploads/

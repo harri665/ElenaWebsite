@@ -1,37 +1,46 @@
+# Site is served at http://<host>:38417 by default. To use another port, set
+# SITE_PORT in a .env file next to this file (e.g. SITE_PORT=8080).
+# The API is only reachable through the site's nginx — no host port of its own.
+
 services:
   server:
     build:
-      context: ./Src/server
+      context: ./server
       dockerfile: Dockerfile
-    container_name: harwood-server
-    ports:
-      - "3001:3001"
     environment:
       - NODE_ENV=production
       - PORT=3001
+      # Password for /admin - set ADMIN_PASSWORD in the .env file
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - DATA_DIR=/app/content
+    volumes:
+      # Pieces, posts, about text and uploads edited in /admin survive rebuilds
+      - elena-content:/app/content
     networks:
-      - harwood-network
+      - elena-network
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3001/api/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 40s
+      start_period: 20s
 
   client:
     build:
-      context: ./Src/client
+      context: ./client
       dockerfile: Dockerfile
-    container_name: harwood-client
     ports:
-      - "80:80"
+      - "${SITE_PORT:-38417}:80"
     depends_on:
       - server
     networks:
-      - harwood-network
+      - elena-network
     restart: unless-stopped
 
 networks:
-  harwood-network:
+  elena-network:
     driver: bridge
+
+volumes:
+  elena-content:

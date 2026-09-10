@@ -8,3 +8,6 @@ npm-debug.log
 coverage
 .vscode
 .idea
+# Live content — mounted as a volume, never baked into the image
+data/site.json
+data/uploads

@@ -1,6 +1,27 @@
-# Harrison Default Web Template
+# Elena — Artist Portfolio
 
-A full-stack web application template with React frontend and Express backend.
+Portfolio site for [@elena_artist_8](https://www.instagram.com/elena_artist_8/). A fixed full-screen WebGL
+canvas sits behind every page and dissolves between artworks with an fbm-noise shader (modelled on the hero on
+dungeonsanddragons.com) as you scroll, hover the gallery, or change pages.
+
+## Admin — `/admin`
+
+Add/edit/delete/reorder pieces, choose (or hide) the home page's featured section, write blog posts
+(shown at `/blog`), list published works (shown at `/published`), and edit the About text.
+
+- Password: the server's `ADMIN_PASSWORD` env var. In development it defaults to `admin`; in production the
+  admin is disabled until it's set (for Docker, put `ADMIN_PASSWORD=...` in a `.env` next to `docker-compose.yml`).
+- Content is stored in `server/data/site.json` and uploads in `server/data/uploads/` (both git-ignored; set
+  `DATA_DIR` to move them). On first run `site.json` is created from the committed `server/data/seed.json`.
+  **Back these up** — they are the site's content.
+- The original Instagram images stay in `client/public/art/`.
+
+## Code map
+
+- **The transition itself:** `client/src/lib/backdrop/` (`shaders.js` = the effect, `renderer.js` = WebGL,
+  `Backdrop.jsx` = which image shows when). Page fade-out/in lives in `client/src/lib/transition.jsx`.
+
+Built on the Harrison default template below (React frontend, Express backend).
 
 ## Project Structure
 
