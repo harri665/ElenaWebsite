@@ -2,9 +2,9 @@
   "pieces": [
     {
       "id": "Dc2245JFqv0",
-      "slug": "wings-over-the-dunes",
-      "title": "Wings Over the Dunes",
-      "blurb": "A winged warrior drifting above a burning desert sunset, blade trailing fire. Includes the character reference sheet.",
+      "slug": "eldel",
+      "title": "Eldel",
+      "blurb": "My lovely boi who is still trying to figure out exactly where he came from. 🫶",
       "instagram": "https://www.instagram.com/p/Dc2245JFqv0/",
       "media": [
         {
@@ -25,7 +25,7 @@
       "id": "DaCbQUEuD7W",
       "slug": "i-m-having-a-moment",
       "title": "I'm Having a Moment",
-      "blurb": "Tethered to the ship, floating past a strange green world — sometimes you just need a moment.",
+      "blurb": "SOmething something hail mary refrence something",
       "instagram": "https://www.instagram.com/p/DaCbQUEuD7W/",
       "media": [
         {
@@ -36,9 +36,9 @@
     },
     {
       "id": "DOChuMLDUxI",
-      "slug": "knight-in-the-daisies",
-      "title": "Knight in the Daisies",
-      "blurb": "An armoured elf leaning on his cane in a field of endless white flowers.",
+      "slug": "matthew",
+      "title": "Matthew",
+      "blurb": "Hoshi’s best friend, but he died pretty young. This is him aged up a little bit if he survived the incident that led to his death.",
       "instagram": "https://www.instagram.com/p/DOChuMLDUxI/",
       "media": [
         {
@@ -53,9 +53,9 @@
     },
     {
       "id": "DOChZBdjX1B",
-      "slug": "the-crimson-cloak",
-      "title": "The Crimson Cloak",
-      "blurb": "A red-caped wanderer steps out of a haunted wood, castle looming behind. Plus pages of sketches.",
+      "slug": "hoshi-altair",
+      "title": "Hoshi/Altair",
+      "blurb": "i remember you giving me a indepth into who he is and what he does but tbh i dont remember but you should put that here :)",
       "instagram": "https://www.instagram.com/p/DOChZBdjX1B/",
       "media": [
         {
@@ -73,10 +73,27 @@
       ]
     },
     {
+      "id": "DOCgHaIDemS",
+      "slug": "luci",
+      "title": "Luci",
+      "blurb": "undead beauty, was a reincarnation of Tatyana. Strahd tried to get her, failed, the threw a tantrum, could u believe that. 🫡😂",
+      "instagram": "https://www.instagram.com/p/DOCgHaIDemS/",
+      "media": [
+        {
+          "type": "image",
+          "src": "/art/007_DOCgHaIDemS_1.jpg"
+        },
+        {
+          "type": "image",
+          "src": "/art/007_DOCgHaIDemS_2.jpg"
+        }
+      ]
+    },
+    {
       "id": "DOCg6nUDXgy",
-      "slug": "the-jukebox",
-      "title": "The Jukebox",
-      "blurb": "A warforged with a jukebox for a heart, neon rings glowing as he dances by the river.",
+      "slug": "mp3",
+      "title": "MP3",
+      "blurb": "a lovable jut-box who is just doing their best!",
       "instagram": "https://www.instagram.com/p/DOCg6nUDXgy/",
       "media": [
         {
@@ -91,9 +108,9 @@
     },
     {
       "id": "DOCgTqhjd3C",
-      "slug": "sword-and-cloak",
-      "title": "Sword & Cloak",
-      "blurb": "Chainmail, a long black cloak and a greatsword resting easy on one shoulder.",
+      "slug": "elric",
+      "title": "Elric",
+      "blurb": "human fighter who has burned down a village and holds many grudges.",
       "instagram": "https://www.instagram.com/p/DOCgTqhjd3C/",
       "media": [
         {
@@ -107,27 +124,10 @@
       ]
     },
     {
-      "id": "DOCgHaIDemS",
-      "slug": "starlight-gown",
-      "title": "Starlight Gown",
-      "blurb": "A horned noble in a gown stitched from the night sky, standing in a moonlit, misty village.",
-      "instagram": "https://www.instagram.com/p/DOCgHaIDemS/",
-      "media": [
-        {
-          "type": "image",
-          "src": "/art/007_DOCgHaIDemS_1.jpg"
-        },
-        {
-          "type": "image",
-          "src": "/art/007_DOCgHaIDemS_2.jpg"
-        }
-      ]
-    },
-    {
       "id": "DOCfY1sAW2j",
-      "slug": "the-curio-keeper",
-      "title": "The Curio Keeper",
-      "blurb": "Green hat, sharp waistcoat, and a shelf full of oddities he definitely acquired legally.",
+      "slug": "hoshi-altair-2",
+      "title": "Hoshi/Altair",
+      "blurb": "a vampire whose dated Strahd and has been known as a warlord. Recently released and trying to pick up the pieces.",
       "instagram": "https://www.instagram.com/p/DOCfY1sAW2j/",
       "media": [
         {
@@ -142,9 +142,9 @@
     },
     {
       "id": "DOCe6q_AROX",
-      "slug": "dragonborn-of-the-pasture",
-      "title": "Dragonborn of the Pasture",
-      "blurb": "A pale dragonborn and his halberd, keeping watch over some very unbothered cows.",
+      "slug": "herman",
+      "title": "Herman",
+      "blurb": "loves cows and has named all of em.",
       "instagram": "https://www.instagram.com/p/DOCe6q_AROX/",
       "media": [
         {
@@ -157,7 +157,7 @@
       "id": "DOB936JgeTb",
       "slug": "the-whole-party",
       "title": "The Whole Party",
-      "blurb": "The full adventuring party, lined up beneath the mountain and the falls.",
+      "blurb": "Fey wild group, in our fancy outfits",
       "instagram": "https://www.instagram.com/p/DOB936JgeTb/",
       "media": [
         {
@@ -168,9 +168,9 @@
     },
     {
       "id": "C_pRLjssWgb",
-      "slug": "garden-glaive",
-      "title": "Garden Glaive",
-      "blurb": "Horns, a glaive, and the best embroidered trousers in the realm.",
+      "slug": "eldel-2",
+      "title": "Eldel",
+      "blurb": "my wonderful lil darling. He is a blood hunter and has been gifted with a soul sword… yep idk either exciting.",
       "instagram": "https://www.instagram.com/p/C_pRLjssWgb/",
       "media": [
         {
@@ -185,9 +185,9 @@
     },
     {
       "id": "C_pQddUM-vi",
-      "slug": "potions-and-daggers",
-      "title": "Potions & Daggers",
-      "blurb": "A crimson tiefling in a blue coat, a potion on one hip and a dagger on the other.",
+      "slug": "i-cnat-find-his-name-pirate-man",
+      "title": "I CNAT FIND HIS NAME ! (pirate man)",
+      "blurb": "He is a pirate and loves to hit people aka a a monk.",
       "instagram": "https://www.instagram.com/p/C_pQddUM-vi/",
       "media": [
         {
@@ -202,9 +202,9 @@
     },
     {
       "id": "C_pPz3gss9R",
-      "slug": "the-reaper",
-      "title": "The Reaper",
-      "blurb": "Masked, horned and carrying a scythe through a sleeping town.",
+      "slug": "ament",
+      "title": "Ament",
+      "blurb": "the only survivor of the entire campaign. He will become a fey god of shadow.",
       "instagram": "https://www.instagram.com/p/C_pPz3gss9R/",
       "media": [
         {
@@ -219,9 +219,9 @@
     },
     {
       "id": "C7H-_DovdqH",
-      "slug": "ghost-in-white",
-      "title": "Ghost in White",
-      "blurb": "A pale elf in a tattered white dress, flickering between here and somewhere else.",
+      "slug": "l-thien",
+      "title": "Lúthien",
+      "blurb": "our resident Monk, recently died but came back as a gnome. So this art is old once again 🫠",
       "instagram": "https://www.instagram.com/p/C7H-_DovdqH/",
       "media": [
         {
@@ -244,9 +244,9 @@
     },
     {
       "id": "C4mTgMQrAiP",
-      "slug": "storm-in-the-arena",
-      "title": "Storm in the Arena",
-      "blurb": "Cloud-white hair and storm-blue skin, arms wide in the middle of the coliseum.",
+      "slug": "dip",
+      "title": "Dip",
+      "blurb": "Our Fairy, (Cannibal), and fighter!",
       "instagram": "https://www.instagram.com/p/C4mTgMQrAiP/",
       "media": [
         {
@@ -270,8 +270,8 @@
     {
       "id": "C4UuUrosGBF",
       "slug": "holding-the-party",
-      "title": "Holding the Party",
-      "blurb": "The whole crew, shrunk down to plushie size and held very carefully.",
+      "title": "Holding the Party :)",
+      "blurb": "Almost all of my dnd characters I’ve drawn over the last couple of years! I love them dearly 🫶",
       "instagram": "https://www.instagram.com/p/C4UuUrosGBF/",
       "media": [
         {
@@ -294,9 +294,9 @@
     },
     {
       "id": "C3Dueq8PRa8",
-      "slug": "mid-flight",
-      "title": "Mid-Flight",
-      "blurb": "Green robes, a curling tail and a flying kick through the forest.",
+      "slug": "enola",
+      "title": "Enola",
+      "blurb": "My take on my friend’s character 🫶 Enola was once a Druid but lost her magic, now she is an ass kicking Monk!!!",
       "instagram": "https://www.instagram.com/p/C3Dueq8PRa8/",
       "media": [
         {
@@ -319,9 +319,9 @@
     },
     {
       "id": "C2_RitMIoKI",
-      "slug": "pure-joy",
-      "title": "Pure Joy",
-      "blurb": "A flower crown, a polka-dot dress and a jump of pure happiness.",
+      "slug": "poppy",
+      "title": "Poppy",
+      "blurb": "Our joy that balances out branches depression 😆🫶!! Love her- she is a queen!",
       "instagram": "https://www.instagram.com/p/C2_RitMIoKI/",
       "media": [
         {
@@ -336,9 +336,9 @@
     },
     {
       "id": "C2BTWM_rnRc",
-      "slug": "the-murder-board",
-      "title": "The Murder Board",
-      "blurb": "Branch from Trolls, redrawn in my style as a D&D character — red string, pinned notes and all. Process video included.",
+      "slug": "branch",
+      "title": "Branch",
+      "blurb": "Branch as a Dnd character- my obsession has only grown for this fandom",
       "instagram": "https://www.instagram.com/p/C2BTWM_rnRc/",
       "media": [
         {
@@ -361,9 +361,9 @@
     },
     {
       "id": "C1tHHnVs_6j",
-      "slug": "mountain-barbarian",
-      "title": "Mountain Barbarian",
-      "blurb": "Axe up, hand raised, halfway up a mountainside of wildflowers.",
+      "slug": "olga",
+      "title": "Olga",
+      "blurb": "Our barbarian human!! The MVP of our last fight! She is amazing ♥️♥️",
       "instagram": "https://www.instagram.com/p/C1tHHnVs_6j/",
       "media": [
         {
@@ -378,9 +378,9 @@
     },
     {
       "id": "C1WQbuoOYEd",
-      "slug": "scarlet-storm",
-      "title": "Scarlet Storm",
-      "blurb": "A cascade of red ruffles against a sky full of lightning.",
+      "slug": "violet",
+      "title": "Violet",
+      "blurb": "A woman who would do anything for her true love…. And I mean anything.",
       "instagram": "https://www.instagram.com/p/C1WQbuoOYEd/",
       "media": [
         {
@@ -399,9 +399,9 @@
     },
     {
       "id": "C0GQshEM_0h",
-      "slug": "the-dance",
-      "title": "The Dance",
-      "blurb": "Two partners mid-dip — one of them is holding a mask a little too tightly.",
+      "slug": "otp",
+      "title": "OTP",
+      "blurb": "something something romantic something",
       "instagram": "https://www.instagram.com/p/C0GQshEM_0h/",
       "media": [
         {
@@ -420,9 +420,9 @@
     },
     {
       "id": "CyKSP0CIBSZ",
-      "slug": "the-avocado-swashbuckler",
-      "title": "The Avocado Swashbuckler",
-      "blurb": "Yes, it is a fairy avocado with a rapier. And its masked swashbuckler companion.",
+      "slug": "vincent",
+      "title": "Vincent",
+      "blurb": "the Avocado! Newest edition to the V-name posse, have to play him because Ven died 😭",
       "instagram": "https://www.instagram.com/p/CyKSP0CIBSZ/",
       "media": [
         {
@@ -445,9 +445,9 @@
     },
     {
       "id": "CxGjiINurQ_",
-      "slug": "forest-goblin",
-      "title": "Forest Goblin",
-      "blurb": "A patchwork goblin stalking through the woods with a glowing charm.",
+      "slug": "draven",
+      "title": "Draven",
+      "blurb": "Current character Draven (Ven for short) is a He/They Eldarin Cleric of fate. He is stoic but caring, wants nothing more than to find his family.\r\nFor those who are in my dnd party you don’t know about the last image 🙂",
       "instagram": "https://www.instagram.com/p/CxGjiINurQ_/",
       "media": [
         {
@@ -466,7 +466,7 @@
     }
   ],
   "featured": {
-    "enabled": true,
+    "enabled": false,
     "ids": [
       "DOCgHaIDemS",
       "DOCg6nUDXgy",
@@ -477,36 +477,56 @@
   },
   "about": {
     "heading": "Hi, I’m Elena",
-    "lead": "I’m 22 and trying to do cool art. Is it working? You tell me.",
-    "body": "Most of what I paint are characters — adventurers, villains and oddballs from tabletop campaigns and stories, each one dropped into a world of their own: daisy fields, haunted forests, moonlit villages and colosseums.\n\nI love the details that make a character feel real: an embroidered pair of trousers, a potion on a hip, a murder board covered in red string. Every piece starts with a sketch and a lot of questions about who this person is.",
+    "lead": "Trying to do cool art, is it working?",
+    "body": "( im not a writer like you ... that was my best attempt at making a nice bio you make a better one please :) )",
     "image": "/art/016_C4UuUrosGBF_1.jpg",
-    "teaserHeading": "Heroes, villains & oddballs",
-    "teaserText": "I’m Elena — 22, and I paint the characters that live in campaigns, notebooks and my head. Knights in daisy fields, a Troll with a murder board, the occasional avocado with a sword.",
-    "contactHeading": "Come find me",
-    "contactText": "New pieces, works in progress and the occasional supply haul go up on Instagram first. Want to talk about a piece or a character? Send me a message there.",
+    "teaserHeading": "ARTIST STATEMENT ( put something poetic)",
+    "teaserText": "put like a short description of what you do ?",
+    "contactHeading": "Come find me ( or something you think is better )",
+    "contactText": "New pieces, works in progress etc ! (change me )",
     "instagramUrl": "https://www.instagram.com/elena_artist_8/",
     "instagramHandle": "@elena_artist_8"
   },
   "posts": [
     {
       "id": "test-post",
-      "slug": "welcome-to-the-blog",
-      "title": "Welcome to the blog",
+      "slug": "much-blog-many-post",
+      "title": "MUCH BLOG MANY POST",
       "date": "2026-09-10",
       "cover": "/art/001_Dc2245JFqv0_1.jpg",
-      "body": "This is a test post, so you can see how the blog looks. Edit or delete it from the admin under Blog.\n\nPosts are written as plain text: leave a blank line between paragraphs and each one becomes its own paragraph on the page. You can pick any artwork on the site as the cover image, or upload a new one.\n\nSome ideas for real posts: works in progress, the story behind a character, a supply haul, or what you're drawing next."
+      "body": "so like i really need to see what this loosk like when it has more words in it but im not creative enough to think of words to put here so im just going to start typing untill i can see what this part looks like when its longer \r\n\r\nmore words here \r\n\r\na little more here \r\n\r\nposting is fun and that is cool so yippie"
     }
   ],
   "published": [
     {
       "id": "example-published",
-      "title": "Example entry — edit or delete me",
-      "publication": "Name of the book, zine or magazine",
+      "title": "EXAMPLE",
+      "publication": "NAME",
       "year": 2026,
       "month": 9,
-      "description": "This is an example so you can see how published works look. Replace it with a real one (or delete it) in the admin under Published.",
+      "description": "iaohgfoihfwiaohfoiawhoifhawoifhawiohfioawhfioawhfioawhfioawhfioawhiofhawoifhawoifhawiohfioawhfio",
       "link": "",
       "cover": "/art/007_DOCgHaIDemS_1.jpg"
+    },
+    {
+      "id": "1FwRnzQG",
+      "title": "Moon Hauntings",
+      "publication": "Wattpad",
+      "year": 2022,
+      "month": 9,
+      "description": "A Critical Role (Campaign 3) one-shot. After Orym saves Imogen from Ruidus, the furious moon god comes for revenge — this is what happens next. Complete, 2 chapters.",
+      "link": "https://www.wattpad.com/story/321934298-moon-hauntings",
+      "cover": "/uploads/1789028414171-98d97fb1.jpg"
+    },
+    {
+      "id": "YLrMjvWx",
+      "title": "I jumped... but I was saved. (Dadzawa)",
+      "publication": "Wattpad",
+      "year": 2021,
+      "month": 6,
+      "description": "A My Hero Academia story of healing and hardship: Izuku finally decides to give up, until two pro heroes jump after him. Complete, 38 chapters — once #1 in “fatherly love” on Wattpad. Content warnings: depression, trauma.",
+      "link": "https://www.wattpad.com/story/272126987-i-jumped-but-i-was-saved-dadzawa",
+      "cover": "/uploads/1789028414189-18bf5c75.jpg"
     }
   ]
 }

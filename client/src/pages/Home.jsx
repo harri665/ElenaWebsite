@@ -117,9 +117,7 @@ function Featured({ piece, flip }) {
         </TLink>
       </Reveal>
       <div className="featured__text">
-        <Reveal as="p" className="eyebrow">
-          No. {piece.number} &nbsp;·&nbsp; {count} {count === 1 ? 'image' : 'images'}
-        </Reveal>
+
         <RevealText text={piece.title} className="featured__title" />
         {piece.blurb && (
           <Reveal as="p" className="featured__blurb" delay={200}>
